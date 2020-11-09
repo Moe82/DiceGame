@@ -22,15 +22,15 @@ let betOddBTN;
 
 //Load images before the game starts
 function preload() {
-	bgImage = loadImage("CaisonBG.jpg");
-	dieFaces = [loadImage("./alea-face-1.png"), loadImage("./alea-face-2.png"), loadImage("./alea-face-3.png"), loadImage("./alea-face-4.png"), loadImage("./alea-face-5.png"), loadImage("./alea-face-6.png")];
+	bgImage = loadImage("./Assets/CaisonBG.jpg");
+	dieFaces = [loadImage("./Assets/alea-face-1.png"), loadImage("./Assets/alea-face-2.png"), loadImage("./Assets/alea-face-3.png"), loadImage("./Assets/alea-face-4.png"), loadImage("./Assets/alea-face-5.png"), loadImage("./Assets/alea-face-6.png")];
 	dieRollingFaces = [
-		loadImage("./rolling-alea (1).png"), loadImage("./rolling-alea (2).png"), loadImage("./rolling-alea (3).png"), loadImage("./rolling-alea (4).png"),
-		loadImage("./rolling-alea (5).png"), loadImage("./rolling-alea (6).png"), loadImage("./rolling-alea (7).png"), loadImage("./rolling-alea (8).png"),
-		loadImage("./rolling-alea (9).png"), loadImage("./rolling-alea (10).png"), loadImage("./rolling-alea (11).png"), loadImage("./rolling-alea (12).png"),
-		loadImage("./rolling-alea (13).png"), loadImage("./rolling-alea (14).png"), loadImage("./rolling-alea (15).png"), loadImage("./rolling-alea (16).png"),
-		loadImage("./rolling-alea (17).png"), loadImage("./rolling-alea (18).png"), loadImage("./rolling-alea (19).png"), loadImage("./rolling-alea (20).png"),
-		loadImage("./rolling-alea (21).png"), loadImage("./rolling-alea (22).png"), loadImage("./rolling-alea (23).png"), loadImage("./rolling-alea (24).png")
+		loadImage("./Assets/rolling-alea (1).png"), loadImage("./Assets/rolling-alea (2).png"), loadImage("./Assets/rolling-alea (3).png"), loadImage("./Assets/rolling-alea (4).png"),
+		loadImage("./Assets/rolling-alea (5).png"), loadImage("./Assets/rolling-alea (6).png"), loadImage("./Assets/rolling-alea (7).png"), loadImage("./Assets/rolling-alea (8).png"),
+		loadImage("./Assets/rolling-alea (9).png"), loadImage("./Assets/rolling-alea (10).png"), loadImage("./Assets/rolling-alea (11).png"), loadImage("./Assets/rolling-alea (12).png"),
+		loadImage("./Assets/rolling-alea (13).png"), loadImage("./Assets/rolling-alea (14).png"), loadImage("./Assets/rolling-alea (15).png"), loadImage("./Assets/rolling-alea (16).png"),
+		loadImage("./Assets/rolling-alea (17).png"), loadImage("./Assets/rolling-alea (18).png"), loadImage("./Assets/rolling-alea (19).png"), loadImage("./Assets/rolling-alea (20).png"),
+		loadImage("./Assets/rolling-alea (21).png"), loadImage("./Assets/rolling-alea (22).png"), loadImage("./Assets/rolling-alea (23).png"), loadImage("./Assets/rolling-alea (24).png")
 	];
 }
 
